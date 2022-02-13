@@ -26,3 +26,32 @@ body{
 .overflowHiden{
     overflow:  auto;
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+h1{
+    font-size: 25px;
+}
+.link{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #bbb;
+}
+
+.backbutton{
+    font-size: 15px;
+    color:#fff;
+    padding: 5px 15px;
+    background-color: rgb(46, 129, 224);
+}
