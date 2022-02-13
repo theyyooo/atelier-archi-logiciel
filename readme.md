@@ -19,6 +19,10 @@ Le Web dynamique est intéressant car il permet de nouvelles possibilités, impo
 En Web statique, les fichiers sont récupérés via des requêtes : des URL correspondant à de simples fichiers sont renvoyés par le serveur web.
 
 ## Quels sont les avantages d'utiliser du Web Statique avec des services REST
-?
+Les avantages sont les suivants :
+- Ils prennent moins de temps à développer et coûtent moins chers
+- Ils sont plus sécurisés
+- 
 
 ## Qu'est-ce que les architectures N-Tiers ?
+Une architecture N-tiers correspond au principe de découper les services sur plusieurs instances différentes. Par exemple : La présentation, la persistance des données et les différents services métiers sont toutes sur des instances différentes. L'intérêt est que cette disposition permet un passage à l'échelle simplifié ainsi qu'une meilleure gestion des coûts. Les limites de ce système sont la sécurité et la gestion des communications qui restent particulièrement complexes à mettre en place.
