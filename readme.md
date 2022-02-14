@@ -31,9 +31,15 @@ Une architecture N-tiers correspond au principe de découper les services sur pl
 
 ## Qu’est-ce que JEE ?
 
+"Java enterprise edition" est une plateforme permettant le développement d'applications dites "distribuées" ainsi que leurs exécutions.
+
 ## Comment fonctionne un serveur JEE ?
 
+Les serveurs JEE hébergent les composants d'une architecture à plusieurs niveaux (Le modèle, la vue et le controller sont sur différentes instances). JEE fournit des services sous la forme de conteneur à ces niveaux.
+
 ## Qu’est-ce qu’un Web Container en JEE ?
+
+  
 
 ## Qu’est ce que Springboot ? 
 
