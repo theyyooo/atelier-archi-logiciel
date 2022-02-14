@@ -26,3 +26,23 @@ Les avantages sont les suivants :
 
 ## Qu'est-ce que les architectures N-Tiers ?
 Une architecture N-tiers correspond au principe de découper les services sur plusieurs instances différentes. Par exemple : La présentation, la persistance des données et les différents services métiers sont toutes sur des instances différentes. L'intérêt est que cette disposition permet un passage à l'échelle simplifié ainsi qu'une meilleure gestion des coûts. Les limites de ce système sont la sécurité et la gestion des communications qui restent particulièrement complexes à mettre en place.
+
+## Comment fonctionne l'AJAX
+
+## Qu’est-ce que JEE ?
+
+## Comment fonctionne un serveur JEE ?
+
+## Qu’est-ce qu’un Web Container en JEE ?
+
+## Qu’est ce que Springboot ? 
+
+## Quelles différences avec JEE ?
+
+## Qu’apport Thymeleaf à Springboot ?
+
+## Que signifie l’annotation @Controller, pourquoi est-elle importante lors de la génération de pas coté serveur ?
+
+## Que représente le répertoire ‘src/main/resources’ dans un projet SpringBoot ? 
+
+## Quelles sont les informations stockées à cet endroit ?
