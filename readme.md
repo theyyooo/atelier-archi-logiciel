@@ -39,11 +39,15 @@ Les serveurs JEE hébergent les composants d'une architecture à plusieurs nivea
 
 ## Qu’est-ce qu’un Web Container en JEE ?
 
-  
+Le conteneur JEE a l'objectif d'instancier et de détruire les "servlets" d'une application. Le conteneur distribue une instance HttpServletRequest
 
 ## Qu’est ce que Springboot ? 
 
+C'est un framework qui permet de créer des applications autonomes fonctionnant sur les machines virtuelles JAVA. Il est open-source et est relativement orienté pour les entreprises.
+
 ## Quelles différences avec JEE ?
+
+
 
 ## Qu’apport Thymeleaf à Springboot ?
 
