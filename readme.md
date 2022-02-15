@@ -29,6 +29,8 @@ Une architecture N-tiers correspond au principe de découper les services sur pl
 
 ## Comment fonctionne l'AJAX
 
+AJAX (Asynchronous JavaScript And XML) communique avec des serveurs grâce à l'objet XMLHttpRequest. Sa particularité est qu'il est asynchrone, c'est-à-dire qu'il peut transmettre des informations au serveur sans avoir à recharger la page internet. Les données envoyées peuvent avoir différents formats : JSON, XML, HTML, etc...
+
 ## Qu’est-ce que JEE ?
 
 "Java enterprise edition" est une plateforme permettant le développement d'applications dites "distribuées" ainsi que leurs exécutions.
@@ -39,7 +41,7 @@ Les serveurs JEE hébergent les composants d'une architecture à plusieurs nivea
 
 ## Qu’est-ce qu’un Web Container en JEE ?
 
-Le conteneur JEE a l'objectif d'instancier et de détruire les "servlets" d'une application. Le conteneur distribue une instance HttpServletRequest
+Le conteneur JEE a l'objectif d'instancier et de détruire les "servlets" d'une application. Le conteneur distribue une instance HttpServletRequest et HttpServletResponse.
 
 ## Qu’est ce que Springboot ? 
 
