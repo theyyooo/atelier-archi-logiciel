@@ -22,39 +22,38 @@ En Web statique, les fichiers sont récupérés via des requêtes : des URL corr
 Les avantages sont les suivants :
 - Ils prennent moins de temps à développer et coûtent moins chers
 - Ils sont plus sécurisés
-- 
 
 ## Qu'est-ce que les architectures N-Tiers ?
 Une architecture N-tiers correspond au principe de découper les services sur plusieurs instances différentes. Par exemple : La présentation, la persistance des données et les différents services métiers sont toutes sur des instances différentes. L'intérêt est que cette disposition permet un passage à l'échelle simplifié ainsi qu'une meilleure gestion des coûts. Les limites de ce système sont la sécurité et la gestion des communications qui restent particulièrement complexes à mettre en place.
 
 ## Comment fonctionne l'AJAX
-
 AJAX (Asynchronous JavaScript And XML) communique avec des serveurs grâce à l'objet XMLHttpRequest. Sa particularité est qu'il est asynchrone, c'est-à-dire qu'il peut transmettre des informations au serveur sans avoir à recharger la page internet. Les données envoyées peuvent avoir différents formats : JSON, XML, HTML, etc...
 
 ## Qu’est-ce que JEE ?
-
 "Java enterprise edition" est une plateforme permettant le développement d'applications dites "distribuées" ainsi que leurs exécutions.
 
 ## Comment fonctionne un serveur JEE ?
-
 Les serveurs JEE hébergent les composants d'une architecture à plusieurs niveaux (Le modèle, la vue et le controller sont sur différentes instances). JEE fournit des services sous la forme de conteneur à ces niveaux.
 
 ## Qu’est-ce qu’un Web Container en JEE ?
-
 Le conteneur JEE a l'objectif d'instancier et de détruire les "servlets" d'une application. Le conteneur distribue une instance HttpServletRequest et HttpServletResponse.
 
 ## Qu’est ce que Springboot ? 
-
 C'est un framework qui permet de créer des applications autonomes fonctionnant sur les machines virtuelles JAVA. Il est open-source et est relativement orienté pour les entreprises.
 
 ## Quelles différences avec JEE ?
+JEE est moins populaire car n'est pas open-source, de plus, les serveurs mettent plus de temps à démarrer qu'avec Springboot. 
+Springboot est un framework tandis que JEE est plutôt une spécification ou un standard, le premier étant une librairie et le second est une API qui a besoin d'être implémentée.
 
-
-
-## Qu’apport Thymeleaf à Springboot ?
+## Qu’apporte Thymeleaf à Springboot ?
+Thymeleaf est un moteur de template (permettant de dissocier la partie graphique du reste de l'application).
+Thymeleaf est, à l'instar de Springboot, open-source. 
 
 ## Que signifie l’annotation @Controller, pourquoi est-elle importante lors de la génération de pas coté serveur ?
+Cela permet d'indiquer que la classe est considérée comme un "controller". L'annotation est importante pour permettre à Springboot de reconnaitre la classe comme étant un service RESTful durant le temps de son exécution.
 
-## Que représente le répertoire ‘src/main/resources’ dans un projet SpringBoot ? 
+## Que représente le répertoire ‘src/main/resources’ dans un projet SpringBoot ? *
+Le répertoire 'src/main/resources' dans un projet Springboot représente l'endroit où vont être stockées les ressources nécessaires pour la Vue.
 
 ## Quelles sont les informations stockées à cet endroit ?
+Sont stockées à cet endroit les différentes images, les templates (fichiers html).
